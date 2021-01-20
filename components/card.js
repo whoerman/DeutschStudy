@@ -6,9 +6,9 @@
         <div class="card border-secondary text-center"> \
                     <div class="card-body"> \
                         <img class="card-img-top" src="./assets/images/sprechen.jpg" alt="Card image cap"> \
-                        <h4 class="text-center m-0"> Welcome to </h4> \
-                        <h4 class="text-center m-0"> German Quiz! </h4> \
-                    <button type="button" id="introButton" class="btn btn-warning btn-block m-1">Click Here to Start</button>\
+                        <h4 class="text-center m-1"> Wilkommen!</h4> \
+                        <p class="text-center m-1"> Learn German through a series of online games. We will add more games as we think of them. Ready to start learning German? Lass uns anfangen! </p> \
+                    <button type="button" id="introButton" class="btn btn-success btn-block m-1">Click Here to Start</button>\
                     </div> \
                     </div> \
                 </div>';
