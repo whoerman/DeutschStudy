@@ -25,11 +25,11 @@
  function makeGameChoiceCard() {
      document.getElementById("contentdiv").innerHTML = '';
      gameChoiceCard =
-         '<div class="card-columns mt-2"> \
+         '<div class="card-columns mt-2 animate__animated animate__fadeInTopRight"> \
         <div class="card border-secondary text-center"> \
                     <div class="card-body"> \
-                        <h4 class="text-center m-0"><i class="fas fa-list"></i> Which game would </h4> \
-                        <h4 class="text-center m-0"> you like to play? </h4> \
+                        <h4 class="text-center m-0">Which game would </h4> \
+                        <h4 class="text-center m-1"> you like to play? </h4> \
                         <button type="button" id="sentenceFlashButton" class="btn btn-dark btn-block m-1 animate__animated animate__fadeInTopRight"><i class="fas fa-pen-alt"></i> Sentence Flash Cards</button>\
                         <button type="button" id="nameThatNounButton" class="btn btn-warning btn-block m-1 animate__animated animate__fadeInTopLeft"><i class="fas fa-globe-africa"></i> Name that Noun</button>\
                         <button type="button" id="nounGenderButton" class="btn btn-danger btn-block m-1 animate__animated animate__fadeInBottomLeft"><i class="fas fa-venus-mars"></i> Noun Genders</button>\
